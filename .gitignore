@@ -10,15 +10,6 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-# Ignore Mac DS_Store files
-.DS_Store
-**/.DS_Store
-
-git rm -r --cached .
-git add .
-git commit -am "Removed git ignored files"
-git push -f origin master
-
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
